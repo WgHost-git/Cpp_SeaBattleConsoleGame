@@ -42,38 +42,3 @@ ___
 Konyhin Vitaliy.
 
 ![Alt-текст](img/Autor.gif)
-
-___
-
-### Описание кода программы:
-
-##### Подключение библиотек:
-
-``` c++
-#include <iostream> //Библиотека ввода и вывода информации
-#include <windows.h> // включает функции WinAPI
-#include <cstring> // Для использования строк C++
-#include <conio.h> // консольный ввод-вывод
-```
-##### Основные функции:
-
-+ `void OkrasField(char map[][19], int color1, int color2, int color3, int color4, int color5, int color6, int x)` // Цвет игрового поля
-+ `void menuBeckShip(string ship)` // Меню установки кораблей
-+ `void OkrasLogoSea(char map[][55])` // цвет логотипа
-+ `void funcBeckShip(char map[][19], int button1, int a, int b)` // Функция расстановки кораблей
-+ `void LogoSea()` // Логотип морского боя
-+ `void fViborSea(int count)` // Передвижение по меню Морской бой
-+ `void moveField(char map[][19], int but)` //передвижение по полю
-+ `void mapAutor()` // Функция отображения автора
-+ `void mapInstr()` // Функция меню описания
-+ `void OkrasAutorAndInstr(char map[][70], int color, int str)` // Окрашивание пункта Автор
-+ `void drawingShips(char map[][19], int but)` // Отрисовка кораблей
-+ `void outlineAroundShip(char map1[][19], char map2[][19], int ship)` // Отрисовка вокруг убитого корабля
-+ `void outlineAroundShipInsaid(char map[][19], int ship, int numShip)` // Отрисовка вокруг убитого корабля внутреняя функция
-+ `void winn(int numWin)` // Победа
-+ `void eliminationSticking(char map[][19])` // устранение залипания курсора
-+ `void CursorVisible()` // Скрыть видимость курсора
-+ `void ConsoleWindow()` // Размер окна консоли и его отображение
-+ `void printStuff(int x, int y)` // Обновление экрана
-+ `void changFont()` // Смена шрифта  + размер шрифта
-+ `void OkrasMenu(string vibor, int color)` // Окрашивание меню
